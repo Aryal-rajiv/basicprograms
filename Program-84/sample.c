@@ -2,12 +2,12 @@
 #include<iostream.h>
 int main()
  { 
-   int i;
+   int a;
    clrscr();
    printf{"Enter the number"};
-   scanf{"%d",&i};
-   i=i*i*i;
-   printf{"The triple of that number is %d",i};
+   scanf{"%d",&a};
+   a=a*a*a;
+   printf{"The triple of that number is %d",a};
    return 0;
  }
 
